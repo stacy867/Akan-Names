@@ -3,40 +3,42 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<form>, initial-scale=1.0">
+    <meta name="viewport" content="width= <form>, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Akan-Names webpage</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
     <div class="container">
         <h1 class="jumbotron">Akan Name webpage</h>
             <p></p>
-            <form>
-                <div class="form-group">
-                    <label>Enter your full name</label>
-                    <input type="text"><br>
-                </div>
-                <label>Enter your date of birth</label><br>
-                <label>day</label>
-                <input id="day" type="number">
-                <label>Month</label>
-                <input id="month" type="number">
-                <label>Year</label>
-                <input type="number" id="year"><br>
-                <label>Choose your Gender</label><br>
-                <label>female</label>
-                <input class="input" name="exampleradios" id="female" type="radio" value="option1" checked>
-                <label>male</label>
-                <input class="input" name="exampleradios" id="male" value="option2" type="radio"><br>
-                <button id="submit">SUBMITT</button>
 
 
+            <label>Enter your date of birth</label><br>
+            <label>day</label>
+            <input id="day" type="number">
+            <label>Month</label>
+            <input id="month" type="number" required>
+            <label>Year</label>
+            <input type="number" id="year"><br>
+            <label>Choose your Gender</label><br>
+            <select id="select">
+                <option>GENDER</option>
+                <option value="female">female</option>
+                <option value="male">male</option>
+            </select><br>
+            <!-- <label>female</label>
+            <input class="input" name="exampleradios" id="female" type="radio" value="option1">
+            <label>male</label>
+            <input class="input" name="exampleradios" id="male" value="option2" type="radio"><br>-- -->
+            <button onclick="weekd()">SUBMIT</button>
 
-            </form>
-            <span></span>
 
     </div>
+
+    <p id="result"></p>
+    <p id="akan"></p>
 
 
 </body>
