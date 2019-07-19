@@ -16,6 +16,9 @@ p {
     color: black;
 }
 
-button {
+button,
+#select {
     background-color: white;
+    border: 1px;
+    border-radius: 5px;
 }
