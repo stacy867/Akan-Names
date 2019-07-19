@@ -18,7 +18,7 @@ p {
 
 button,
 #select {
-    background-color: white;
+    background-color: rgb(0, 119, 255);
     border: 1px;
     border-radius: 5px;
 }
@@ -31,4 +31,11 @@ button,
 
 .footer {
     float: left;
+}
+
+form {
+    margin: 10px;
+    padding: 10px;
+    border: 1px soid;
+    background-color: white;
 }
