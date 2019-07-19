@@ -16,32 +16,36 @@
     <div class="container">
         <form>
             <h1 class="jumbotron">Akan Name webpage</h1>
-            <p>This webpage is about Ghanian's names where a user enters his/her birth date and displays his/her Akan name according to the weekday he/she was born.</p>
+            <div class="form">
+                <p>This webpage is about Ghanian's names where a user enters his/her birth date and displays his/her Akan name according to the weekday he/she was born.</p>
 
 
-            <label>Enter your date of birth</label><br>
-            <label>Day</label>
-            <input id="day" type="number" required><br>
-            <label>Month</label>
-            <input id="month" type="number" required><br>
-            <label>Year</label>
-            <input type="number" id="year" required><br>
-            <label>Choose your Gender</label><br>
-            <select type="button" id="select">
-            <option>GENDER</option>
-            <option value="female">female</option>
-            <option value="male">male</option>
-        </select><br>
-            <br>
-            <button onclick="weekd()">SUBMIT</button>
+                <label>Enter your date of birth</label><br>
+                <label>Day</label>
+                <input id="day" type="number" required><br>
+                <label>Month</label>
+                <input id="month" type="number" required><br>
+                <label>Year</label>
+                <input type="number" id="year" required><br>
+                <label>Choose your Gender</label><br>
+                <select type="button" id="select">
+    <option>GENDER</option>
+    <option value="female">female</option>
+    <option value="male">male</option>
+</select><br>
+                <br>
+                <button type="button" onclick="weekd()">SUBMIT</button>
+
+            </div>
+
         </form>
 
 
     </div>
-
-    <p>And your akan name is:</p>
-    <p id="akan"></p>
-
+    <div class="footer">
+        <p>And your akan name is:</p>
+        <p id="akan"></p>
+    </div>
 
 </body>
 
