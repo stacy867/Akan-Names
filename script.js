@@ -4,8 +4,8 @@ function weekd() {
     var y = parseFloat(document.getElementById('year').value);
     var c = (y - 1) / 100 + 1;
     var dayoftheweek = (c / 4 - 2 * c - 1 + 5 * y / 4 + 26 * (m + 1) / 10 + d) % 7;
-    console.log(dayoftheweek);
-    document.getElementById('result').innerHTML = Math.round(dayoftheweek);
+    console.log(Math.round(dayoftheweek));
+    // document.getElementById('result').innerHTML = Math.round(dayoftheweek);
 
 
 
