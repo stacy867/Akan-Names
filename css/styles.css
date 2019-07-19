@@ -3,3 +3,19 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+label {
+    font-family: italic;
+    font-size: 30px;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+    font-family: italic;
+    color: black;
+}
+
+button {
+    background-color: white;
+}
