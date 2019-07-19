@@ -15,11 +15,6 @@ function weekd() {
         alert("invalid input enter month less than 12 or greater than 0");
     } else {
 
-
-
-
-
-
         if (choice === "male") {
             console.log(gabo[Math.round(dayoftheweek)]);
 
@@ -39,15 +34,3 @@ function weekd() {
     }
 
 }
-
-// function validity() {
-//     var d;
-//     var m;
-//     if (d > 31 || d < 0) {
-
-//         alert("ivalid input enter days less than 31 or greater than 0");
-//     }
-//     if (m > 12 || m < 1) {
-//         alert("invalid input enter month less than 12 or greater than 0");
-//     }
-// }
