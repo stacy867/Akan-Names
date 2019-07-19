@@ -18,12 +18,10 @@ function weekd() {
 
     if (choice === "male") {
         console.log(gabo[Math.round(dayoftheweek)]);
-        // for (var i = 0; i < gore.length; i++) {
-        //     Math.round(dayoftheweek) = gore[i];
-        //     console.log = gore[i];
+
         document.getElementById('akan').innerHTML = gabo[Math.round(dayoftheweek)];
 
-        // }
+
     } else if (choice === "female") {
 
 
